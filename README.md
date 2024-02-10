@@ -5,28 +5,23 @@ Hey there! I am new to both Python and Mojo languages. In this repository, I wen
 ## Programs
 
 1. **Length of last word**
-2. 
-   Description: returning the length of the last word in the string.
+   : returning the length of the last word in the string.
    
 
 3. **Palindrome number:**
-4. 
-   Description: returning true if input is a palindrome and false otherwise.
+   : returning true if input is a palindrome and false otherwise.
   
 
 5. **Student attendance record**
-6. 
-   Description: Whether or not the student is eligible for an attendance award
+   : Whether or not the student is eligible for an attendance award
    
  
 7. **Detect Capital letter usage**
-8. 
-   Description: Returning true if the usage of capitals in it is right.
+   : Returning true if the usage of capitals in it is right.
    
 
 9. **Find the difference:**
-10. 
-   Description: Returning the extra letter among 2 strings
+   : Returning the extra letter among 2 strings
    
 
 ## Benchmarking and Testing
