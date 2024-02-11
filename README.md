@@ -38,4 +38,6 @@ The performance of both languages was benchmarked using Hyperfine. Programs were
 
 3: Mojo provided helpful explanations with each error, making it easier for me to understand and identify my mistakes. Python, on the other hand, lacked this feature, which is an advantage of Mojo.
 
+4: The code itelf requires a main() function to be called in Mojo for it to run while Python runs as is.
+
 
