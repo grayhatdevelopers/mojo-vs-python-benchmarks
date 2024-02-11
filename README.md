@@ -1,6 +1,6 @@
 # Language Comparison: Python vs Mojo
 
-Hey there! I am new to both Python and Mojo languages. In this repository, I went on a mission to explore and compare these two languages from scratch, knowing only the basics of programming
+Hey there! I am new to both Python and Mojo languages. In this repository, I went on a mission to explore and compare these two languages from scratch, knowing only the basics of programming (started with c++)
 
 ## Programs
 
@@ -30,4 +30,12 @@ The performance of both languages was benchmarked using Hyperfine. Programs were
 
 ## Results
 ..
+
+## Comparing the advantages of both
+1: Python installation was much simpler compared to Mojo. Installing Mojo was not user-friendly; it would have been better if there was a one-click installation option for Mojo on Windows, similar to Python.
+
+2: The syntax of Mojo and Python was quite similar, with the main difference being that in Mojo, you need to use Python functions by importing them. For example, to take user input, you have to import the "input" function from Python. This made Python easier to learn.
+
+3: Mojo provided helpful explanations with each error, making it easier for me to understand and identify my mistakes. Python, on the other hand, lacked this feature, which is an advantage of Mojo.
+
 
