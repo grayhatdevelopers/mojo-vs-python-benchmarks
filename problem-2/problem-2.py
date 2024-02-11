@@ -1,28 +1,29 @@
-def isPalindrome(x):
-    enternumber = x
+def checkRecord(attendance_record):
+    
+    attendance_record_str = str(attendance_record)
 
-    enternumber_str = str(enternumber)
-    if not enternumber_str.isdigit():
-        print("Invalid input. Please enter a valid integer.")
-        return
+    absent_count = 0
+    late_count = 0
 
-    store1 = [0] * len(enternumber_str)
-    store2 = [0] * len(enternumber_str)
+    for i in range(len(attendance_record_str)):
+        
+        if attendance_record_str[i] == 'A':
+            absent_count += 1
+            late_count = 0
+        elif attendance_record_str[i] == 'L':
+            late_count += 1
+        else:
+            late_count = 0
 
-    for i in range(len(enternumber_str)):
-        store1[i] = int(enternumber_str[i])
-        print(store1[i])
-
-    for j in range(len(enternumber_str)-1, -1, -1):
-        store2[len(enternumber_str)-1-j] = int(enternumber_str[j])
-
-    for i in range(len(enternumber_str)):
-        print(store2[i])
-        if store1[i] != store2[i]:
+        if late_count >= 3 or absent_count >= 2:
+            print("The attendance record is not acceptable.")
             return False
+
+    print("The attendance record is acceptable.")
     return True
 
+# Main function
 def main():
-    input_number = int(input("Enter an integer: "))
-    result = isPalindrome(input_number)
-    print("Is Palindrome:", result)
+    checkRecord("PAALP")
+    
+main()

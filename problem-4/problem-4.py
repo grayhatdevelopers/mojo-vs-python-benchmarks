@@ -1,19 +1,24 @@
-def detectCapitalUse():
-    user_input = input("Enter a word: ")
+
+def detectCapitalUse(word):
     
+    
+    uinput = str(word)
+
     number_of_capital_letters = 0
-    for letter in user_input:
+    for i in range(len(uinput)):
+        letter = uinput[i]
         if ord(letter) < 97:
             number_of_capital_letters += 1
 
-    number_of_small_letters = len(user_input) - number_of_capital_letters
+    number_of_small_letters = len(uinput) - number_of_capital_letters
 
-    if number_of_capital_letters == len(user_input) or number_of_small_letters == len(user_input) or (ord(user_input[0]) < 97 and number_of_capital_letters == 1):
-        result = True
+    if number_of_capital_letters == len(uinput) or number_of_small_letters == len(uinput) or (ord(word[0]) < 97 and number_of_capital_letters == 1):
+        return True
     else:
-        result = False
-
-    print("Result:", result)
+        return False
 
 def main():
-    detectCapitalUse()
+    result = detectCapitalUse("USA")
+    print("Result:")
+    print(result)
+main()
