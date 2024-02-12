@@ -29,7 +29,7 @@ Hey there! I am new to both Python and Mojo languages. In this repository, I wen
 The performance of both languages was benchmarked using Hyperfine. Programs were tested and outputs were compared to see which one of them was faster 
 
 ## Results
-..
+For all the codes, Python ran significantly faster than Mojo and beat Mojo, in speed, by a huge margin
 
 ## Comparing the advantages of both
 1: Python installation was much simpler compared to Mojo. Installing Mojo was not user-friendly; it would have been better if there was a one-click installation option for Mojo on Windows, similar to Python.
@@ -39,5 +39,6 @@ The performance of both languages was benchmarked using Hyperfine. Programs were
 3: Mojo provided helpful explanations with each error, making it easier for me to understand and identify my mistakes. Python, on the other hand, lacked this feature, which is an advantage of Mojo.
 
 4: The code itelf requires a main() function to be called in Mojo for it to run while Python runs as is.
+
 
 
