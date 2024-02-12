@@ -40,5 +40,6 @@ For all the codes, Python ran significantly faster than Mojo and beat Mojo, in s
 
 4: The code itelf requires a main() function to be called in Mojo for it to run while Python runs as is.
 
+5: The discord community of Mojo is very active and helpful. Their discord has a chatbot which guides through every inconvenience with ease and is up to date with all the errors that I encountered while coding in Mojo
 
 
