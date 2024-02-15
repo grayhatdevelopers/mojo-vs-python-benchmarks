@@ -1,8 +1,7 @@
 from python import Python
 
-from python import Python
-
 def lengthOfLastWord(enterword: String):
+    
     py = Python.import_module("builtins")
     
     count = 0
@@ -15,7 +14,7 @@ def lengthOfLastWord(enterword: String):
     print("Length of the last word:")
     print(count)
 
-# Main function
+
 def main():
     input_string = "Hello World" 
     lengthOfLastWord(input_string)
