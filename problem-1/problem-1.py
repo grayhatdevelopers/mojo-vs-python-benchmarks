@@ -1,8 +1,4 @@
 def lengthOfLastWord(enterword):
-    """
-    :type s: str
-    :rtype: int
-    """
    
     count = 0
 
@@ -12,9 +8,10 @@ def lengthOfLastWord(enterword):
         elif count > 0:
             break
 
-    return count
+    print("Length of last word", count)
 
 def main():
     input_string = "Hello World"
     result = lengthOfLastWord(input_string)
-    #print("Length of the last word:s
+   
+main()
