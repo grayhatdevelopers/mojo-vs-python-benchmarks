@@ -1,21 +1,23 @@
-def makeGood():
-    input_str = input("Enter a string: ")
-    i = 0 
+def makeGood(s):
     result = ""
 
-    while i < len(input_str) - 1:
-        if abs(ord(input_str[i]) - ord(input_str[i + 1])) == 32:
-            i += 2  
+    i = 0
+    while i < len(s):
+        
+        if i < len(s) - 1 and abs(ord(s[i]) - ord(s[i + 1])) == 32:
+            
+            i += 2
         else:
-            result += input_str[i]
-        i += 1
+           
+            result += s[i]
+            i += 1
 
-    if i == len(input_str) - 1:
-        result += input_str[-1]
-
-    print("Result:", result)
+    return result
 
 def main():
-    makeGood()
+    
+    input_str = "leEeetcode"
+    output_str = makeGood(input_str)
+    print(output_str)
 
-
+main()
