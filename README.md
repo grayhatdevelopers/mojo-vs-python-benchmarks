@@ -1,6 +1,8 @@
 # Language Comparison: Python vs Mojo
 
-Hey there! I am new to both Python and Mojo languages. In this repository, I went on a mission to explore and compare these two languages from scratch, knowing only the basics of programming (started with c++)
+Hey there! I am new to both Python and Mojo languages. In this repository, I went on a mission to explore and compare these two languages from scratch, knowing only the basics of programming (started with C++). It contains a comparison of both the languages, from the perspective of a newbie.
+
+> I would love if people can verify whether or not my benchmarking is correct. If you can, please send an Issue or Pull Request with any changes and I'd be glad to re-run your request.
 
 ## Programs
 
@@ -26,7 +28,7 @@ Hey there! I am new to both Python and Mojo languages. In this repository, I wen
 
 ## Benchmarking and Testing
 
-The performance of both languages was benchmarked using Hyperfine. Programs were tested and outputs were compared to see which one of them was faster 
+The performance of both languages was benchmarked using [Hyperfine](https://github.com/sharkdp/hyperfine). Programs were tested and outputs were compared to see which one of them was faster.
 
 ## Results
 For all the codes, Python ran significantly faster than Mojo and beat Mojo, in speed, by a huge margin
