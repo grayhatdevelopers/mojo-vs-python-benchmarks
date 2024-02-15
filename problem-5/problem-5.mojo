@@ -1,22 +1,14 @@
 from python import Python
 
-def findTheDifference():
+def findTheDifference(s:String, t:String):
     py = Python.import_module("builtins")
-
     
-    s = py.input("Enter the first string (s): ")
-    t = py.input("Enter the second string (t): ")
-
-    for i in t:
-        if s.find(i) == -1:
-            
-            print("The difference is:",i)
-            return
-        elif s.count(i) != t.count(i):
-           
-            print("The difference is:", i)
-            return
+    for i in range(len(t)):
+        if s[i] != t[i]:
+            result = t[i]
+            print("The difference is:")
+            print(result)
+            break
 
 def main():
-    
-    findTheDifference()
+    findTheDifference("abcd", "abced")
