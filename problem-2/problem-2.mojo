@@ -1,14 +1,11 @@
-from python import Python
+fn checkRecord(attendance_record: String) -> Bool:
+    var attendance_record_str = attendance_record
 
-def checkRecord(attendance_record: String):
-    py = Python.import_module("builtins")
-    attendance_record_str = attendance_record
-
-    absent_count = 0
-    late_count = 0
+    var absent_count = 0
+    var late_count = 0
 
     for i in range(len(attendance_record_str)):
-        
+
         if attendance_record_str[i] == 'A':
             absent_count += 1
             late_count = 0
@@ -25,8 +22,5 @@ def checkRecord(attendance_record: String):
     return True
 
 
-def main():
-    checkRecord("PAALP")
-
-
-
+fn main():
+    var value = checkRecord("PAALP")
