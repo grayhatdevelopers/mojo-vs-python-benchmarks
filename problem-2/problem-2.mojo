@@ -23,4 +23,5 @@ fn checkRecord(attendance_record: String) -> Bool:
 
 
 fn main():
-    var value = checkRecord("PAALP")
+    for _ in range(100000):
+        _ = checkRecord("PAALP")

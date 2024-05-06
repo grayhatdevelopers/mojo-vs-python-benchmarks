@@ -17,7 +17,5 @@ fn makeGood(s: String):
     print(result)
 
 fn main():
-    var input_str = "leEeetcode"
-    makeGood(input_str)
-
-    #print("After making the string good:", result)
+    for _ in range(1000000):
+        makeGood("leEeetcode")

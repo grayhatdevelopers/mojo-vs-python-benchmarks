@@ -7,7 +7,9 @@ for dir in *; do
 		COMMANDS=("python ${dir}.py")
 		COMMANDS+=($dir)
 		cd "$dir"
+		echo
 		echo "Benchmarking $dir"
+		echo "======================"
 		$COMPILE
 		$BENCH "${COMMANDS[@]}"
 		cd ..

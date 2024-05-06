@@ -1,12 +1,12 @@
-def checkRecord(attendance_record):
-    
+def check_record(attendance_record):
+
     attendance_record_str = str(attendance_record)
 
     absent_count = 0
     late_count = 0
 
     for i in range(len(attendance_record_str)):
-        
+
         if attendance_record_str[i] == 'A':
             absent_count += 1
             late_count = 0
@@ -22,8 +22,11 @@ def checkRecord(attendance_record):
     print("The attendance record is acceptable.")
     return True
 
+
 # Main function
 def main():
-    checkRecord("PAALP")
-    
-main()
+    [check_record("PPALLP") for _ in range(100000)]
+
+
+if __name__ == "__main__":
+    main()

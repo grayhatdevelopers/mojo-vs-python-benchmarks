@@ -10,5 +10,5 @@ fn lengthOfLastWord(enterword: String):
 
 
 fn main():
-    var input_string = "Hello World"
-    lengthOfLastWord(input_string)
+    for _ in range(100000):
+        lengthOfLastWord("Hello World")

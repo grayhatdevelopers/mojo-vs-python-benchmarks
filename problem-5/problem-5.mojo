@@ -6,5 +6,7 @@ fn findTheDifference(s:String, t:String):
             print(result)
             break
 
+
 fn main():
-    findTheDifference("abcd", "abced")
+    for _ in range(100000):
+        findTheDifference("abcd", "abced")

@@ -14,7 +14,7 @@ fn detectCapitalUse(word: String) -> Bool:
     else:
         return False
 
+
 fn main():
-    var result = detectCapitalUse("USA")
-    print("Result:")
-    print(result)
+    for _ in range(1000000):
+        _ = detectCapitalUse("USA")
