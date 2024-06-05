@@ -1,5 +1,7 @@
 # Language Comparison: Python vs Mojo
 
+> ⚠️ We're updating these benchmarks for a more fair comparison. As Mojo can be run in compile-mode, we find it fairer to compare "Compiled Mojo vs Compiled Python" and "Interpreted Mojo vs Interpreted Python". Please stay in touch for this transition. Thanks!
+
 Hey there! I am new to both Python and Mojo languages. In this repository, I went on a mission to explore and compare these two languages from scratch, knowing only the basics of programming (started with C++). It contains a comparison of both the languages, from the perspective of a newbie.
 
 > I would love if people can verify whether or not my benchmarking is correct. If you can, please send an Issue or Pull Request with any changes and I'd be glad to re-run your request.
