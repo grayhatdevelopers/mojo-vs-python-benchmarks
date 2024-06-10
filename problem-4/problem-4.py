@@ -1,7 +1,7 @@
 
-def detectCapitalUse(word):
-    
-    
+def detect_capital_use(word):
+
+
     uinput = str(word)
 
     number_of_capital_letters = 0
@@ -17,8 +17,10 @@ def detectCapitalUse(word):
     else:
         return False
 
+
 def main():
-    result = detectCapitalUse("USA")
-    print("Result:")
-    print(result)
-main()
+    [detect_capital_use("USA") for _ in range(1000000)]
+
+
+if __name__ == "__main__":
+    main()
